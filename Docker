@@ -1,0 +1,38 @@
+1// docker info
+
+2//docker pull alpine             //pull from website as alpine image
+
+3// run alpine sh                  // running image
+
+4// docker ps -a
+ 
+5// docker run -d -it alpine sh            
+
+6// docker run -it alpine sh                //Entering in Linux Verison of Alpine
+--> #ls   //directories
+
+ # EXIT
+
+7//docker ps -a
+
+8// docker run -it  --name=Mylinux alpine sh    //changing name of Container
+
+9// ps -a     //Checking Name Change
+
+10// docker stop MyLinux     //For stoping Container
+
+11// docker rm MyLinux       // For removing Container
+
+***DELETE ALL CONTAINERS IN ORDER TO DELETE AN IMAGE***
+
+12// docker rmi -f alpine    //remove image of Alpine
+
+
+
+13// CREATE A NEW CONTAINER : docker run -d -it alpine.sh
+
+14// Will show all running containers :  docker ps -a       
+
+15// Enter Linux Version : docker -it alpine sh
+
+16// Change Name :   docker run -it --name=MyLinux alpine sh  
